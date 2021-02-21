@@ -74,7 +74,7 @@ In order to automatically start Elasticsearch on system boot, you have to activa
 Graylog
 -------
 
-First install the Graylog GPG Key with ``rpm --import https://packages.graylog2.org/repo/debian/keyring.gpg`` then add the repository file ``/etc/zypp/repos.d/graylog.repo`` with the following content::
+First install the Graylog GPG Key with ``rpm --import https://packages.graylog2.org/repo/debian/pubkey.gpg`` then add the repository file ``/etc/zypp/repos.d/graylog.repo`` with the following content::
 
     [graylog]
     name=graylog
